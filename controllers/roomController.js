@@ -11,10 +11,9 @@ exports.checkRoomExists = (req, res) => {
 };
 
 exports.getTurnCredentials = (req, res) => {
-    const accountSid = "AC7cff1792ce0f8d410f4790a5048eeeb7";
-    const authToken = "c9f5e65fe22c2e6764d5ca5530d4970c";
-//   const accountSid = process.env.TWILIO_ACCOUNT_SID;
-//   const authToken = process.env.TWILIO_AUTH_TOKEN;
+
+  const accountSid = process.env.TWILIO_ACCOUNT_SID;
+  const authToken = process.env.TWILIO_AUTH_TOKEN;
 
   const client = twilio(accountSid, authToken);
 
