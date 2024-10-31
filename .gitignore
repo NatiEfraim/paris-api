@@ -1,0 +1,24 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Optional npm cache directory
+.npm/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Debug files
+*.pid
+*.seed
+*.log
+
+# Coverage directory
+coverage/
